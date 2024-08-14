@@ -29,7 +29,7 @@
 &kp ESC    &kp NUMBER_1  &kp NUMBER_2  &kp N3    &kp NUMBER_4  &kp NUMBER_5                         &kp N6         &kp N7  &kp N8     &kp N9   &kp NUMBER_0  &tog 4
 &kp TAB    &kp Z         &kp Y         &kp U     &kp A         &kp Q                                &kp P          &kp B   &kp M      &kp L    &kp F         &kp J
 &mo 1      &kp C         &kp S         &kp I     &kp E         &kp O                                &kp D          &kp T   &kp T      &kp N    &kp R         &kp SQT
-&kp LSHFT  &kp V         &kp X         &kp U     &kp A         &kp E         &kp J        &kp RBKT  &kp W          &kp G   &kp COMMA  &kp DOT  &kp K         &kp LEFT_WIN
+&kp LSHFT  &kp V         &kp X         &de_ue    &de_ae        &de_oe        &de_eszett   &kp QUESTION &kp W          &kp G   &kp COMMA  &kp DOT  &kp K         &kp LEFT_WIN
                                        &kp LALT  &tog 3        &mo 2         &kp SPACE    &kp RET   &kp BACKSPACE  &tog 2  &tog 4
             >;
         };
