@@ -1,15 +1,17 @@
-&i2c0 {
-    compatible = "nordic,nrf-twim";
-    status = "okay";
-    sda-pin = <26>;  // GPIO pin for SDA (P0.26)
-    scl-pin = <27>;  // GPIO pin for SCL (P0.27)
+/ {
+    i2c0 {
+        compatible = "nordic,nrf-twim";
+        status = "okay";
+        sda-pin = <26>;  // GPIO pin for SDA (P0.26)
+        scl-pin = <27>;  // GPIO pin for SCL (P0.27)
 
-    ssd1306: oled@3c {
-        compatible = "solomon,ssd1306fb";
-        reg = <0x3C>;
-        width = <128>;
-        height = <32>;
-        reset-gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
-        label = "OLED Display";
+        ssd1306: oled@3c {
+            compatible = "solomon,ssd1306fb";
+            reg = <0x3C>;
+            width = <128>;
+            height = <32>;
+            reset-gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
+            label = "OLED Display";
+        };
     };
 };
